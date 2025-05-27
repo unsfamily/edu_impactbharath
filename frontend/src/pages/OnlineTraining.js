@@ -3,7 +3,14 @@ import { useNavigate } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import OnlineTrainingImg from "../assets/images/onlinetraining.jpeg";
+import OnlineTraining03 from "../assets/images/online03.jpeg";
+import OnlineTraining04 from "../assets/images/online04.jpeg";
+import OnlineTraining05 from "../assets/images/online05.jpeg";
+import OnlineTraining06 from "../assets/images/online06.jpeg";
+import OnlineTraining07 from "../assets/images/online07.jpeg";
+import OnlineTraining08 from "../assets/images/online08.jpeg";
+import OnlineTraining09 from "../assets/images/online09.jpeg";
+import OnlineTraining10 from "../assets/images/online10.jpeg";
 
 const OnlineTraining = () => {
   const { isAuthenticated, currentUser, hasSubscription } = useAuth();
@@ -36,7 +43,13 @@ const OnlineTraining = () => {
                 below:
               </p> */}
               <div className="col-md-6 text-center training-img">
-                <img src={OnlineTrainingImg} alt="Online Training" />
+                <img src={OnlineTrainingImg03} alt="Online Training" />
+                <img src={OnlineTrainingImg04} alt="Online Training" />
+                <img src={OnlineTrainingImg05} alt="Online Training" />
+                <img src={OnlineTrainingImg06} alt="Online Training" />
+                <img src={OnlineTrainingImg07} alt="Online Training" />
+                <img src={OnlineTrainingImg08} alt="Online Training" />
+                <img src={OnlineTrainingImg09} alt="Online Training" />
               </div>
               <table className="table table-bordered bg-white shadow mt-4">
                 <thead className="table-info">

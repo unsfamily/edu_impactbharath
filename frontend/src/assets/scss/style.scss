@@ -1,6 +1,6 @@
 /******* Bootstrap Theming ********/
-$pink: #cd4df1;
-$primary: #7d2ae8;
+$pink: #4dcdf1;
+$primary: #37729a;
 $secondary: #F14D5D;
 $light: #ECF4FF;
 $dark: #120F2D;
@@ -122,7 +122,7 @@ height:200px;
 }
 
 .jumbotron {
-    background: linear-gradient(rgba(40, 120, 235, 0.25), rgb(235 40 229 / 58%)), url(../images/header.jpg), no-repeat center center;
+    background: linear-gradient(rgba(40, 120, 235, 0.25), #37729a), url(../images/header.jpg), no-repeat center center;
     background-size: cover;
 }
 
@@ -153,10 +153,10 @@ height:200px;
     background-size: contain;
 }
 .bg-pink{
-    background: #8e85df;
+    background: #37729a;
 }
 .bg-dpink{
-    background: #7b74b9;
+    background: #314755;
 }
 .right-radious{
     border-radius: 0 0 100px 0;
@@ -219,7 +219,7 @@ height:200px;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      border-top:4px solid #7d2ae8;
+      border-top:4px solid #37729a;
     }
 
     .incentive-box h4 {
@@ -235,11 +235,11 @@ height:200px;
     }
 
     .incentive-box:hover {
-      background: #94a0ee;
+      background: #17a2b8;
       color: #fff;
       transform: translateY(-8px);
       border-top:none;
-      border-bottom:4px solid #7d2ae8;
+      border-bottom:4px solid #37729a;
     }
 
     .incentive-box:hover h4,
@@ -258,7 +258,7 @@ height:200px;
 }
 .client_section .box:hover .img-box{
 //   border-color: #ff6f00; /* Change border color on hover */
-  border: 4px solid  #ae40b2; /* Initial gradient */
+  border: 4px solid  #97caec; /* Initial gradient */
   transform: scale(1.1) rotate(10deg);
 }
 .client_section {
@@ -281,8 +281,8 @@ height:200px;
             overflow: hidden;
             margin-right: -65px;
             position: relative;
-            background: #7d2ae8;
-            border: 5px solid #19c880; /* Base transparent border */
+            background: #37729a;
+            border: 5px solid #558dfe; /* Base transparent border */
             background-size: 400% 400%; /* For smooth gradient shifts */
             transition: transform 0.4s ease;
             animation: gradientMove 10s ease infinite;
@@ -315,7 +315,7 @@ height:200px;
                 .client_name {
                     h5 {
                     font-weight: bold;
-                    color: #8019c8;
+                    color: #37729a;
                     margin-bottom: 10px;
                     text-transform: uppercase;
                     }
