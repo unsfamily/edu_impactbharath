@@ -3,14 +3,14 @@ import { useNavigate } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import OnlineTraining03 from "../assets/images/online03.jpeg";
-import OnlineTraining04 from "../assets/images/online04.jpeg";
-import OnlineTraining05 from "../assets/images/online05.jpeg";
-import OnlineTraining06 from "../assets/images/online06.jpeg";
-import OnlineTraining07 from "../assets/images/online07.jpeg";
-import OnlineTraining08 from "../assets/images/online08.jpeg";
-import OnlineTraining09 from "../assets/images/online09.jpeg";
-import OnlineTraining10 from "../assets/images/online10.jpeg";
+import OnlineTraining03 from "../assets/images/online03.png";
+import OnlineTraining04 from "../assets/images/online04.png";
+import OnlineTraining05 from "../assets/images/online05.png";
+import OnlineTraining06 from "../assets/images/online06.png";
+import OnlineTraining07 from "../assets/images/online07.png";
+import OnlineTraining08 from "../assets/images/online08.png";
+import OnlineTraining09 from "../assets/images/online09.png";
+import OnlineTraining10 from "../assets/images/online10.png";
 
 const OnlineTraining = () => {
   const { isAuthenticated, currentUser, hasSubscription } = useAuth();
@@ -43,13 +43,14 @@ const OnlineTraining = () => {
                 below:
               </p> */}
               <div className="col-md-6 text-center training-img">
-                <img src={OnlineTrainingImg03} alt="Online Training" />
-                <img src={OnlineTrainingImg04} alt="Online Training" />
-                <img src={OnlineTrainingImg05} alt="Online Training" />
-                <img src={OnlineTrainingImg06} alt="Online Training" />
-                <img src={OnlineTrainingImg07} alt="Online Training" />
-                <img src={OnlineTrainingImg08} alt="Online Training" />
-                <img src={OnlineTrainingImg09} alt="Online Training" />
+                <img src={OnlineTraining03} alt="Online Training" />
+                <img src={OnlineTraining04} alt="Online Training" />
+                <img src={OnlineTraining05} alt="Online Training" />
+                <img src={OnlineTraining06} alt="Online Training" />
+                <img src={OnlineTraining07} alt="Online Training" />
+                <img src={OnlineTraining08} alt="Online Training" />
+                <img src={OnlineTraining09} alt="Online Training" />
+                <img src={OnlineTraining10} alt="Online Training" />
               </div>
               <table className="table table-bordered bg-white shadow mt-4">
                 <thead className="table-info">
