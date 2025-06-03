@@ -134,11 +134,9 @@ const Home = () => {
             <div className="client_info">
               <div className="client_name">
                 <h5>Why Attend IMPACT BHARATH?</h5>
-                <h6>
-                  Explore <strong>real-world changemaking stories</strong> to inspire students<br/>
-                  Learn to embed <strong>values, empathy, SDGs & social innovation</strong> in your subject<br/>
-                  Receive <strong>practical tools, discussion prompts, and classroom projects</strong><br/>
-                  Align with <strong>NEP 2020, SEL (Social Emotional Learning)</strong>, and global competencies<br/>
+                <h6 className="mb-4">
+                  Explore <strong>real-world changemaking stories</strong> to inspire students. Learn to embed <strong>values, empathy, SDGs & social innovation</strong> in your subject. Receive <strong>practical tools, discussion prompts, and classroom projects</strong>.
+                  Align with <strong>NEP 2020, SEL (Social Emotional Learning)</strong>, and global competencies.
                 </h6>
               </div>
             </div>
@@ -162,8 +160,8 @@ const Home = () => {
             <div className="client_info">
               <div className="client_name">
                 <h5>A Weekly Online Empowerment Series for Educators</h5>
-                <h6>📅 Every Saturday<br/>
-                    🕒 Time: 5:00 PM – 6:00<br/>
+                <h6>📅 Every Weeky<br/>
+                    🕒 Time: 10:00 AM<br/>
                     📍 Live on: Google Meet<br/>
                     🎓 For Teachers of Grades 6 to 12<br/>
                     🧾 E-Certificates for Participation
@@ -195,7 +193,7 @@ const Home = () => {
                 </h6>
               </div>
             </div>
-            <a
+            {/* <a
               className="btn btn-primary mt-3 text-center"
               href="#"
               onClick={(e) => {
@@ -204,7 +202,7 @@ const Home = () => {
               }}
             >
               View Details
-            </a>
+            </a> */}
           </div>
         </div>
         <div className="box">
@@ -215,11 +213,7 @@ const Home = () => {
             <div className="client_info">
               <div className="client_name">
                 <h5>Teaching Toolkit</h5>
-                <h6><b>Slide Decks:</b> Editable for each theme. </h6> 
-                <h6><b>Reflection Cards:</b> Printable for classrooms</h6>
-                <h6><b>Canva Templates:</b> Posters, certificates, session reminders.</h6> 
-                <h6><b>Assessment Rubrics:</b> For impact-based student projects. Student</h6> 
-                <h6><b>Journals:</b> “My Changemaker Diary” printable workbook</h6>
+                <h6><b>Slide Decks:</b> Editable for each theme.  <b>Reflection Cards:</b> Printable for classrooms. <b>Canva Templates:</b> Posters, certificates, session reminders. <b>Assessment Rubrics:</b> For impact-based student projects. <b>Student Journals:</b> “My Changemaker Diary” printable workbook</h6>
               </div>
             </div>
             {/* <a

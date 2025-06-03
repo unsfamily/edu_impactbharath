@@ -42,21 +42,221 @@ const OnlineTraining = () => {
                 Join live sessions with educators and peers. Check the details
                 below:
               </p> */}
-              <div className="col-md-6 text-center training-img">
-                <h4>This Week’s Theme</h4>
+              <div className="col-md-12 text-center training-img">
                 <div className="wrap-box">
-                  <img cla src={OnlineTraining03} alt="Online Training" />
-                  <img src={OnlineTraining04} alt="Online Training" />
-                  <img src={OnlineTraining05} alt="Online Training" />
-                  <img src={OnlineTraining06} alt="Online Training" />
-                  <img src={OnlineTraining07} alt="Online Training" />
-                  <img src={OnlineTraining08} alt="Online Training" />
-                  <img src={OnlineTraining09} alt="Online Training" />
-                  <img src={OnlineTraining10} alt="Online Training" />
+                  <div className="bod-box">
+                    <img src={OnlineTraining03} alt="Online Training" />
+                    <p>Empowering Global Citizens: How to Teach Social Impact & Responsibility in Classrooms</p>
+                    <div>
+                      {isAuthenticated && !hasSubscription ? (
+                        <div className="text-center">
+                          <button
+                            className="btn btn-primary"
+                            onClick={(e) => {
+                              e.preventDefault();
+                              handleClickHere();
+                            }}
+                          >
+                            Enroll in UNS for this facility
+                          </button>
+                        </div>
+                      ) : (
+                        <a
+                          href="https://docs.google.com/forms/d/e/1FAIpQLScDm7aodpA71cr0mAqn7uf844lpWLvsu3vkOxSNd7q7YDEszA/viewform?usp=dialog"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Register Now
+                        </a>
+                      )}
+                    </div>
+                  </div>
+                  <div className="bod-box"><img src={OnlineTraining04} alt="Online Training" />
+                  <p>Empowering Global Citizens: How to Teach Social Impact & Responsibility in Classrooms</p>
+                    <div>
+                      {isAuthenticated && !hasSubscription ? (
+                        <div className="text-center">
+                          <button
+                            className="btn btn-primary"
+                            onClick={(e) => {
+                              e.preventDefault();
+                              handleClickHere();
+                            }}
+                          >
+                            Enroll in UNS for this facility
+                          </button>
+                        </div>
+                      ) : (
+                        <a
+                          href="https://docs.google.com/forms/d/e/1FAIpQLScDm7aodpA71cr0mAqn7uf844lpWLvsu3vkOxSNd7q7YDEszA/viewform?usp=dialog"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Register Now
+                        </a>
+                      )}
+                    </div>
+                  </div>
+                  <div className="bod-box"><img src={OnlineTraining05} alt="Online Training" />
+                  <p>Empowering Global Citizens: How to Teach Social Impact & Responsibility in Classrooms</p>
+                    <div>
+                      {isAuthenticated && !hasSubscription ? (
+                        <div className="text-center">
+                          <button
+                            className="btn btn-primary"
+                            onClick={(e) => {
+                              e.preventDefault();
+                              handleClickHere();
+                            }}
+                          >
+                            Enroll in UNS for this facility
+                          </button>
+                        </div>
+                      ) : (
+                        <a
+                          href="https://docs.google.com/forms/d/e/1FAIpQLScDm7aodpA71cr0mAqn7uf844lpWLvsu3vkOxSNd7q7YDEszA/viewform?usp=dialog"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Register Now
+                        </a>
+                      )}
+                    </div>
+                  </div>
+                  <div className="bod-box"><img src={OnlineTraining06} alt="Online Training" />
+                  <p>Empowering Global Citizens: How to Teach Social Impact & Responsibility in Classrooms</p>
+                    <div>
+                      {isAuthenticated && !hasSubscription ? (
+                        <div className="text-center">
+                          <button
+                            className="btn btn-primary"
+                            onClick={(e) => {
+                              e.preventDefault();
+                              handleClickHere();
+                            }}
+                          >
+                            Enroll in UNS for this facility
+                          </button>
+                        </div>
+                      ) : (
+                        <a
+                          href="https://docs.google.com/forms/d/e/1FAIpQLScDm7aodpA71cr0mAqn7uf844lpWLvsu3vkOxSNd7q7YDEszA/viewform?usp=dialog"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Register Now
+                        </a>
+                      )}
+                    </div>
+                  </div>
+                  <div className="bod-box"><img src={OnlineTraining07} alt="Online Training" />
+                  <p>Empowering Global Citizens: How to Teach Social Impact & Responsibility in Classrooms</p>
+                    <div>
+                      {isAuthenticated && !hasSubscription ? (
+                        <div className="text-center">
+                          <button
+                            className="btn btn-primary"
+                            onClick={(e) => {
+                              e.preventDefault();
+                              handleClickHere();
+                            }}
+                          >
+                            Enroll in UNS for this facility
+                          </button>
+                        </div>
+                      ) : (
+                        <a
+                          href="https://docs.google.com/forms/d/e/1FAIpQLScDm7aodpA71cr0mAqn7uf844lpWLvsu3vkOxSNd7q7YDEszA/viewform?usp=dialog"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Register Now
+                        </a>
+                      )}
+                    </div>
+                  </div>
+                  <div className="bod-box"><img src={OnlineTraining08} alt="Online Training" />
+                  <p>Empowering Global Citizens: How to Teach Social Impact & Responsibility in Classrooms</p>
+                    <div>
+                      {isAuthenticated && !hasSubscription ? (
+                        <div className="text-center">
+                          <button
+                            className="btn btn-primary"
+                            onClick={(e) => {
+                              e.preventDefault();
+                              handleClickHere();
+                            }}
+                          >
+                            Enroll in UNS for this facility
+                          </button>
+                        </div>
+                      ) : (
+                        <a
+                          href="https://docs.google.com/forms/d/e/1FAIpQLScDm7aodpA71cr0mAqn7uf844lpWLvsu3vkOxSNd7q7YDEszA/viewform?usp=dialog"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Register Now
+                        </a>
+                      )}
+                    </div>
+                  </div>
+                  <div className="bod-box"><img src={OnlineTraining09} alt="Online Training" />
+                  <p>Empowering Global Citizens: How to Teach Social Impact & Responsibility in Classrooms</p>
+                    <div>
+                      {isAuthenticated && !hasSubscription ? (
+                        <div className="text-center">
+                          <button
+                            className="btn btn-primary"
+                            onClick={(e) => {
+                              e.preventDefault();
+                              handleClickHere();
+                            }}
+                          >
+                            Enroll in UNS for this facility
+                          </button>
+                        </div>
+                      ) : (
+                        <a
+                          href="https://docs.google.com/forms/d/e/1FAIpQLScDm7aodpA71cr0mAqn7uf844lpWLvsu3vkOxSNd7q7YDEszA/viewform?usp=dialog"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Register Now
+                        </a>
+                      )}
+                    </div>
+                  </div>
+                  <div className="bod-box"><img src={OnlineTraining10} alt="Online Training" />
+                  <p>Empowering Global Citizens: How to Teach Social Impact & Responsibility in Classrooms</p>
+                    <div>
+                      {isAuthenticated && !hasSubscription ? (
+                        <div className="text-center">
+                          <button
+                            className="btn btn-primary"
+                            onClick={(e) => {
+                              e.preventDefault();
+                              handleClickHere();
+                            }}
+                          >
+                            Enroll in UNS for this facility
+                          </button>
+                        </div>
+                      ) : (
+                        <a
+                          href="https://docs.google.com/forms/d/e/1FAIpQLScDm7aodpA71cr0mAqn7uf844lpWLvsu3vkOxSNd7q7YDEszA/viewform?usp=dialog"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Register Now
+                        </a>
+                      )}
+                    </div>
+                  </div>
                 </div>
-                <p>Empowering Global Citizens: How to Teach Social Impact & Responsibility in Classrooms</p>
+                {/* <p>Empowering Global Citizens: How to Teach Social Impact & Responsibility in Classrooms</p> */}
               </div>
-              <table className="table table-bordered bg-white shadow mt-4">
+              {/* <table className="table table-bordered bg-white shadow mt-4">
                 <thead className="table-info">
                   <tr>
                     <th>Date</th>
@@ -93,7 +293,7 @@ const OnlineTraining = () => {
                     </td>
                   </tr>
                 </tbody>
-              </table>
+              </table> */}
             </div>
           </div>
         </div>
