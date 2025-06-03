@@ -3,14 +3,14 @@ import { useNavigate } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-// import OnlineTraining03 from "../assets/images/online_03.png";
-// import OnlineTraining04 from "../assets/images/online_04.png";
-// import OnlineTraining05 from "../assets/images/online_05.png";
-// import OnlineTraining06 from "../assets/images/online_06.png";
-// import OnlineTraining07 from "../assets/images/online_07.png";
-// import OnlineTraining08 from "../assets/images/online_08.png";
-// import OnlineTraining09 from "../assets/images/online_09.png";
-// import OnlineTraining10 from "../assets/images/online_10.png";
+import OnlineTraining03 from "../assets/images/online_03.png";
+import OnlineTraining04 from "../assets/images/online_04.png";
+import OnlineTraining05 from "../assets/images/online_05.png";
+import OnlineTraining06 from "../assets/images/online_06.png";
+import OnlineTraining07 from "../assets/images/online_07.png";
+import OnlineTraining08 from "../assets/images/online_08.png";
+import OnlineTraining09 from "../assets/images/online_09.png";
+import OnlineTraining10 from "../assets/images/online_10.png";
 
 const OnlineTraining = () => {
   const { isAuthenticated, currentUser, hasSubscription } = useAuth();
@@ -44,14 +44,16 @@ const OnlineTraining = () => {
               </p> */}
               <div className="col-md-6 text-center training-img">
                 <h4>This Week’s Theme</h4>
-                {/* <img src={OnlineTraining03} alt="Online Training" />
-                <img src={OnlineTraining04} alt="Online Training" />
-                <img src={OnlineTraining05} alt="Online Training" />
-                <img src={OnlineTraining06} alt="Online Training" />
-                <img src={OnlineTraining07} alt="Online Training" />
-                <img src={OnlineTraining08} alt="Online Training" />
-                <img src={OnlineTraining09} alt="Online Training" />
-                <img src={OnlineTraining10} alt="Online Training" /> */}
+                <div className="wrap-box">
+                  <img cla src={OnlineTraining03} alt="Online Training" />
+                  <img src={OnlineTraining04} alt="Online Training" />
+                  <img src={OnlineTraining05} alt="Online Training" />
+                  <img src={OnlineTraining06} alt="Online Training" />
+                  <img src={OnlineTraining07} alt="Online Training" />
+                  <img src={OnlineTraining08} alt="Online Training" />
+                  <img src={OnlineTraining09} alt="Online Training" />
+                  <img src={OnlineTraining10} alt="Online Training" />
+                </div>
                 <p>Empowering Global Citizens: How to Teach Social Impact & Responsibility in Classrooms</p>
               </div>
               <table className="table table-bordered bg-white shadow mt-4">

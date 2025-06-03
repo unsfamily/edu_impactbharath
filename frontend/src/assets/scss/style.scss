@@ -94,6 +94,11 @@ height:200px;
     flex-shrink: 0;
     padding:10px;
 }
+.wrap-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(24rem, 2fr));
+    column-gap: 12px;
+}
 
 .back-to-top {
     position: fixed;
