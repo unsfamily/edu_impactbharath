@@ -24,7 +24,7 @@ const OfflineTraining = () => {
     <>
       <Header />
         <div className="container-fluid py-5">
-          <div className="container py-5">
+          <div className="container">
             <h2 className=" text-warning mb-4">
               🏫 Weekly Themes & Contemporary Impact Topics for Teachers
             </h2>
