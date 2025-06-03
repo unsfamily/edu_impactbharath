@@ -23,7 +23,6 @@ const OfflineTraining = () => {
   return (
     <>
       <Header />
-      <div className="container-fluid py-5">
         <div className="container-fluid py-5">
           <div className="container py-5">
             <h2 className=" text-warning mb-4">
@@ -94,7 +93,6 @@ const OfflineTraining = () => {
             <div>Activity: “Lead Like Kalam” or “My Ethics Code” reflective writing task</div>
             <div>Resources: NCERT value education guides, MyGov value-based stories</div>
           </div>
-        </div>
 
         {isAuthenticated && !hasSubscription && (
           <div className="text-center mt-4">
