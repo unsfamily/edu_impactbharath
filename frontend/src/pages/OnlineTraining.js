@@ -42,6 +42,44 @@ const OnlineTraining = () => {
                 Join live sessions with educators and peers. Check the details
                 below:
               </p> */}
+              <table className="table table-bordered bg-white shadow mt-4">
+                <thead className="table-info">
+                  <tr>
+                    {/* <th>Date</th> */}
+                    <th>Online Meeting</th>
+                    <th>Link</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    {/* <td>Every Saturday</td> */}
+                    <td>Empowering Global Citizens: How to Teach Social Impact & Responsibility in Classrooms</td>
+                    <td>
+                      {isAuthenticated && !hasSubscription ? (
+                        <div className="text-center">
+                          <button
+                            className="btn btn-primary"
+                            onClick={(e) => {
+                              e.preventDefault();
+                              handleClickHere();
+                            }}
+                          >
+                            Enroll in UNS for this facility
+                          </button>
+                        </div>
+                      ) : (
+                        <a
+                          href="https://docs.google.com/forms/d/e/1FAIpQLScDm7aodpA71cr0mAqn7uf844lpWLvsu3vkOxSNd7q7YDEszA/viewform?usp=dialog"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Register Now
+                        </a>
+                      )}
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
               <div className="col-md-12 text-center training-img">
                 <div className="wrap-box">
                   <div className="bod-box">
@@ -154,7 +192,7 @@ const OnlineTraining = () => {
                     <div>
                       {isAuthenticated && !hasSubscription ? (
                         <div className="text-center">
-                          <button
+                          {/* <button
                             className="btn btn-primary"
                             onClick={(e) => {
                               e.preventDefault();
@@ -162,7 +200,7 @@ const OnlineTraining = () => {
                             }}
                           >
                             Enroll in UNS for this facility
-                          </button>
+                          </button> */}
                         </div>
                       ) : (
                         <a
@@ -180,7 +218,7 @@ const OnlineTraining = () => {
                     <div>
                       {isAuthenticated && !hasSubscription ? (
                         <div className="text-center">
-                          <button
+                          {/* <button
                             className="btn btn-primary"
                             onClick={(e) => {
                               e.preventDefault();
@@ -188,7 +226,7 @@ const OnlineTraining = () => {
                             }}
                           >
                             Enroll in UNS for this facility
-                          </button>
+                          </button> */}
                         </div>
                       ) : (
                         <a
@@ -206,7 +244,7 @@ const OnlineTraining = () => {
                     <div>
                       {isAuthenticated && !hasSubscription ? (
                         <div className="text-center">
-                          <button
+                          {/* <button
                             className="btn btn-primary"
                             onClick={(e) => {
                               e.preventDefault();
@@ -214,7 +252,7 @@ const OnlineTraining = () => {
                             }}
                           >
                             Enroll in UNS for this facility
-                          </button>
+                          </button> */}
                         </div>
                       ) : (
                         <a
@@ -232,7 +270,7 @@ const OnlineTraining = () => {
                     <div>
                       {isAuthenticated && !hasSubscription ? (
                         <div className="text-center">
-                          <button
+                          {/* <button
                             className="btn btn-primary"
                             onClick={(e) => {
                               e.preventDefault();
@@ -240,7 +278,7 @@ const OnlineTraining = () => {
                             }}
                           >
                             Enroll in UNS for this facility
-                          </button>
+                          </button> */}
                         </div>
                       ) : (
                         <a
@@ -256,44 +294,6 @@ const OnlineTraining = () => {
                 </div>
                 {/* <p>Empowering Global Citizens: How to Teach Social Impact & Responsibility in Classrooms</p> */}
               </div>
-              {/* <table className="table table-bordered bg-white shadow mt-4">
-                <thead className="table-info">
-                  <tr>
-                    <th>Date</th>
-                    <th>Topic</th>
-                    <th>Link</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Every Saturday</td>
-                    <td>Empowering Global Citizens: How to Teach Social Impact & Responsibility in Classrooms</td>
-                    <td>
-                      {isAuthenticated && !hasSubscription ? (
-                        <div className="text-center">
-                          <button
-                            className="btn btn-primary"
-                            onClick={(e) => {
-                              e.preventDefault();
-                              handleClickHere();
-                            }}
-                          >
-                            Enroll in UNS for this facility
-                          </button>
-                        </div>
-                      ) : (
-                        <a
-                          href="https://docs.google.com/forms/d/e/1FAIpQLScDm7aodpA71cr0mAqn7uf844lpWLvsu3vkOxSNd7q7YDEszA/viewform?usp=dialog"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          Register Now
-                        </a>
-                      )}
-                    </td>
-                  </tr>
-                </tbody>
-              </table> */}
             </div>
           </div>
         </div>

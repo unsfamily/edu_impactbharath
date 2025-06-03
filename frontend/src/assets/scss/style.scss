@@ -110,6 +110,9 @@ height:200px;
     border: 2px solid #cccccc21;
     margin-bottom: 10px;
     padding-bottom: 20px;
+    &:hover{
+        background: #e9efff;
+    }
     a{
         padding: 10px;
         background: #17a2b8;

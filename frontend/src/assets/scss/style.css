@@ -9330,6 +9330,9 @@ h6,
   margin-bottom: 10px;
   padding-bottom: 20px;
 }
+.bod-box:hover {
+  background: #e9efff;
+}
 .bod-box a {
   padding: 10px;
   background: #17a2b8;
