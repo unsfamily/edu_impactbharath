@@ -101,8 +101,8 @@ const Contact = () => {
                 <h6 className="d-inline-block text-secondary text-uppercase pb-2">
                   Need Help?
                 </h6>
-                <h1 className="display-4">Send Us A Message</h1>
               </div>
+              <h4 className="">Send Us A Message</h4>
               <div className="contact-form">
                 <form onSubmit={handleSubmit} noValidate>
                   <div className="row">

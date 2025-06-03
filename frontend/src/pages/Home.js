@@ -8,10 +8,10 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import diglib from "../assets/images/diglib.jpg";
-import lms from "../assets/images/lms.jpg";
+import empathy from "../assets/images/empathy.jpg";
+import meetingtime from "../assets/images/meetingtime.jpg";
 import online from "../assets/images/online.jpg";
-import offline from "../assets/images/Offline.jpg";
+import teacherkit from "../assets/images/teacherkit.jpg";
 import networking from "../assets/images/networking.jpg";
 import collab from "../assets/images/collab.jpg";
 import industry from "../assets/images/ind.jpg";
@@ -128,19 +128,21 @@ const Home = () => {
       <div className="client_section container">
         <div className="box">
           <div className="img-box">
-            <img src={diglib} alt="Digital Libraries" />
+            <img src={empathy} alt="Digital Libraries" />
           </div>
           <div className="detail-box">
             <div className="client_info">
               <div className="client_name">
-                <h5>Digital Libraries and e-Learning Platforms</h5>
+                <h5>Why Attend IMPACT BHARATH?</h5>
                 <h6>
-                  Access to thousands of e-books, online courses from top
-                  universities
+                  Explore <strong>real-world changemaking stories</strong> to inspire students<br/>
+                  Learn to embed <strong>values, empathy, SDGs & social innovation</strong> in your subject<br/>
+                  Receive <strong>practical tools, discussion prompts, and classroom projects</strong><br/>
+                  Align with <strong>NEP 2020, SEL (Social Emotional Learning)</strong>, and global competencies<br/>
                 </h6>
               </div>
             </div>
-            <a
+            {/* <a
               className="btn btn-primary mt-5 text-center"
               href="#"
               onClick={(e) => {
@@ -149,29 +151,31 @@ const Home = () => {
               }}
             >
               View Details
-            </a>
+            </a> */}
           </div>
         </div>
         <div className="box">
           <div className="img-box">
-            <img src={lms} alt="LMS" />
+            <img src={meetingtime} alt="LMS" />
           </div>
           <div className="detail-box">
             <div className="client_info">
               <div className="client_name">
-                <h5>Learning Management System (LMS)</h5>
-                <h6>
-                  Educational software and tools, virtual labs and, educational
-                  games
+                <h5>A Weekly Online Empowerment Series for Educators</h5>
+                <h6>📅 Every Saturday<br/>
+                    🕒 Time: 5:00 PM – 6:00<br/>
+                    📍 Live on: Google Meet<br/>
+                    🎓 For Teachers of Grades 6 to 12<br/>
+                    🧾 E-Certificates for Participation
                 </h6>
               </div>
             </div>
             <a
-              className="btn btn-primary mt-5 text-center"
+              className="btn btn-primary mt-2 text-center"
               href="#"
               onClick={(e) => {
                 e.preventDefault();
-                handleClickHere("lms");
+                handleClickHere("online");
               }}
             >
               View Details
@@ -185,41 +189,14 @@ const Home = () => {
           <div className="detail-box">
             <div className="client_info">
               <div className="client_name">
-                <h5>Monthly online workshops</h5>
+                <h5>Weekly Themes & Contemporary Impact Topics for Teachers</h5>
                 <h6>
-                  Topics like innovative teaching methods, technology
-                  integration, educational leadership
+                  These weekly sessions will revolve around <strong>social impact, youth leadership, SDGs (Sustainable Development Goals), ethics, and innovation</strong>, all tied to subjects and pedagogies teachers already use
                 </h6>
               </div>
             </div>
             <a
-              className="btn btn-primary mt-5 text-center"
-              href="#"
-              onClick={(e) => {
-                e.preventDefault();
-                handleClickHere("online");
-              }}
-            >
-              View Details
-            </a>
-          </div>
-        </div>
-        <div className="box">
-          <div className="img-box">
-            <img src={offline} alt="Offline Workshops" />
-          </div>
-          <div className="detail-box">
-            <div className="client_info">
-              <div className="client_name">
-                <h5>Quaterly offline workshops</h5>
-                <h6>
-                  Professional development workshops, hands-on training for
-                  teachers, leadership development
-                </h6>
-              </div>
-            </div>
-            <a
-              className="btn btn-primary mt-5 text-center"
+              className="btn btn-primary mt-3 text-center"
               href="#"
               onClick={(e) => {
                 e.preventDefault();
@@ -231,6 +208,33 @@ const Home = () => {
           </div>
         </div>
         <div className="box">
+          <div className="img-box">
+            <img src={teacherkit} alt="Offline Workshops" />
+          </div>
+          <div className="detail-box">
+            <div className="client_info">
+              <div className="client_name">
+                <h5>Teaching Toolkit</h5>
+                <h6><b>Slide Decks:</b> Editable for each theme. </h6> 
+                <h6><b>Reflection Cards:</b> Printable for classrooms</h6>
+                <h6><b>Canva Templates:</b> Posters, certificates, session reminders.</h6> 
+                <h6><b>Assessment Rubrics:</b> For impact-based student projects. Student</h6> 
+                <h6><b>Journals:</b> “My Changemaker Diary” printable workbook</h6>
+              </div>
+            </div>
+            {/* <a
+              className="btn btn-primary mt-5 text-center"
+              href="#"
+              onClick={(e) => {
+                e.preventDefault();
+                handleClickHere("offline");
+              }}
+            >
+              View Details
+            </a> */}
+          </div>
+        </div>
+        {/* <div className="box">
           <div className="img-box">
             <img src={networking} alt="Networking" />
           </div>
@@ -325,9 +329,9 @@ const Home = () => {
               View Details
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
-      <div className="container">
+      {/* <div className="container">
         <div className="section-title text-center">
           <h6 className="d-inline-block position-relative text-secondary text-uppercase pb-2 my-4">
             Additional Incentives
@@ -368,7 +372,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <Footer />
     </>
